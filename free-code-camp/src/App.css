@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: 18px;
+    background-color: #f5f6f7;
+}
+
+h1{
+    /* El ancho maximo */
+    max-width: 940px;
+    font-size: 2.5em;
+    font-family: Lato, sans-serif;
+    /* El peso de la letra seran 700 para que sea un poco mas grueso  */
+    font-weight: 700;
+    /* Nos servira para cuando quieramos sepapración verticalmente */
+    line-height: 1.1;
+    margin: 40px 0;
+}
+
+.App{
+    /* El 100vh nos permitira que se adapte a la altura del dispositivo  */
+    min-height: 100vh;
+    display: flex;
+    /* Singinfica que si un elemento toma todo el ancho del contenedor todos los demas elementos se ubicaran en la otra linea  */
+    flex: wrap;
+    /* Se van alinear en el centro  */
+    align-items: center;
+    /* Para centrarlo horizondalmente  */
+    justify-content: center;
+    /* El texto se va alinear en el centro  */
+    text-align: center;
+}
+
+.contenedor-principal{
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

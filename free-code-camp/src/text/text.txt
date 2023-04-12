@@ -1,0 +1,13 @@
+COMPONENTES -> Nos serviran para poder recopilar la informacion, y de esta forma no tener que volver a escribir el codigo, existen 2 categorias principales: 
+   
+    -> Funcionales -> Es una funcion en JS/ES6 que retorna un elemento de react (JSX).
+        ->prop -> "Propiedades" y son argumentos que puede recibir un componente de react. Los props solo pueden ser enviados de padre a hijo
+    -> de Clase -> es una clase de  ES6 (JS moderno) que retorna un elemento de JSX 
+
+ESTADO -> Representacion en JS del lconjunto de propiedades de un componente y sus valores actuales 
+
+HOOKS -> Ahora si podemos asignar y actualiziar el estado de un comoponente fuctional en react con los hooks. Funcion especial que te permite trabajar con estados en componentes funcionales y otros aspectos en react y lo vamos a poder hacer sin escribir un componente de clase. Lo que nos permitira escribir un codigo mucho mas consiso y facil de entender 
+
+EVENT LISTEER(HANDLER)-> Funcion en JS que es ejecutada cuando ocurre un evento especifico 
+
+SELF-CLOSING TAG -> Es un elemento que solamente posee una etiqueta de apertura ya que no contiene texto u otros elementos 
