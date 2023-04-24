@@ -1,0 +1,29 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    /* Para saber cuanto se puede encojer o expandir el componente en base a otros componentes que tenga cerca para poderse distribuir el espacio  */
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 83px;
+    background-color: #1b1b32;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    /* Para que el texto no se pueda seleccionar con el raton */
+    user-select: none;
+}
+
+.boton-contenedor:hover{
+    background-color: #ff6600;
+}
+
+.operador{
+    background-color: #00417b;
+}
+.operador:hover{
+    background-color: rgb(10, 49, 82);
+}
